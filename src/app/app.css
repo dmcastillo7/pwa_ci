@@ -1,0 +1,31 @@
+body{
+    background-color: #f8f0fc;
+}
+
+.card{
+    border-radius: 16px;
+}
+
+.card-header{
+    border-radius: 16px 16px 0 0;
+}
+
+.list-group-item span{
+    cursor: pointer;
+}
+
+.bg-purple{
+    background-color: #6f42c1 !important;
+}
+
+.btn-purple{
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+    color: #fff;
+}
+
+.btn-purple:hover{
+    background-color: #5a32a3;
+    border-color: #5a32a3;
+    color: #fff;
+}
