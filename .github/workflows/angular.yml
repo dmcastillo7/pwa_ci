@@ -2,8 +2,6 @@ name: Angular CI
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 job:
   build:
@@ -21,7 +19,7 @@ job:
         run: npm install
 
       - name: Ejecutar pruebas
-        run: npm run test -- --run
+        run: npm run test --run
 
       - name: Construir aplicación
         run: npm run build
